@@ -36,3 +36,24 @@ console.log(typeof arr);
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "shuaib"
+
+let anotherName = myYoutubename
+anotherName = "turki"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "shuaib34@gmail.com",
+    upi:"user@ybl",
+}
+let userTwo = userOne
+userTwo.email = "turki@gamil.com"
+console.log(userOne.email);
+console.log(userTwo.email);
